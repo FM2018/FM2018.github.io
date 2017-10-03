@@ -1,0 +1,68 @@
+@media screen and (max-width: 500px) {
+body .main .box02 .demo {
+	width: 48%;
+	border-radius: 2%;
+	box-shadow: 2px 2px 2px #e3e3e3;
+	float: left;
+	font-size: 0;
+	margin: 2% 0;
+	position: relative;
+}
+.top .bar a {
+	font-size:0.5em;
+	margin-right: 5%;
+}
+.demo p {
+	font-size: 12px;
+}
+.demo .topp span {
+	display: none;
+}
+.lastdemo {
+	width: 46%;
+	border-radius: 2%;
+	box-shadow: 2px 2px 2px #e3e3e3;
+	float: left;
+	font-size: 0;
+	margin: 2% 2%;
+	position: relative;
+	display: inline-block;
+}
+.lastdemo img {
+	width: 100%;
+	border-radius: 2% 2% 0 0;
+}
+.lastdemo p {
+	margin: 0;
+	height: 35px;
+	width: 100%;
+	background: white;
+	text-align: center;
+	color: #666666;
+	font-size: 16px;
+	line-height: 35px;
+	border-radius: 0 0 2% 2%;
+	overflow: hidden;
+}
+.lastdemo:hover .topp{
+	visibility: visible;
+	opacity: 1;
+}
+.lastdemo .topp a {
+	font-size: 60px;
+}
+.lastdemo .fontbox {
+	height: 82px;
+}
+.footer .footerr{
+	padding-left: 5px;
+}
+/*.footer p {*/
+	font-size: 10px;
+}
+}
+@media screen and (max-width: 321px) {
+	body .main .box02 .demo {
+	width: 100%;
+}
+}
